@@ -45,6 +45,15 @@ app.get('/', (request, response) => [
     })
 ])
 
+app.get('/spideySense', (request, response) => {
+    // whenever we receive a request, then query the database
+    spideySenseDAO
+        .find()
+        .then(spideySense => {
+            response.json(spideySense)
+        })
+})
+
 function isValidSpideySense(spideySense){
     return spideySense.name && spideySense.name.toString().trim() !== '' 
         && spideySense.content && spideySense.content.toString().trim() !== ''
