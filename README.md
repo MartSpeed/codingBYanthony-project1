@@ -12,12 +12,12 @@ building a twitter clone to reinforce full stack skills
     * [x] name
     * [x] content
     * [x] use full width for both inputs
-* [] listen for form submit
-* [] hide the form
-* [] show loading spinner
-* [] get data from form and log it
-    * [] get user input on the client
-    * [] hide/show elements on the client
+* [x] listen for form submit
+* [x] hide the form
+* [x] show loading spinner
+* [x] get data from form and log it
+    * [x] get user input on the client
+    * [x] hide/show elements on the client
 
 # Back-end
 * [] create server folder
