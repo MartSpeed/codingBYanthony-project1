@@ -12,7 +12,7 @@ const form = document.querySelector('form')
 const loadingElement = document.querySelector('.loading')
 // whent hepage loads, hide the loading animation
 // when we submit the form, hide the message and show the loading gif
-const API_URL = 'http://localhost:5000/spideySense'
+const API_URL = 'http://localhost:8080/spideySense'
 // where is the server I am making request to
 loadingElement.style.display = 'none';
 
@@ -29,16 +29,16 @@ form.addEventListener('submit', (event) => {
         name,
         content
     }
-    console.log(spideyThwip)
+
     form.style.display = 'none';
     loadingElement.style.display = '';
 
     //
-    // fetch(API_URL, {
-    //     method: 'POST',
-    //     body: JSON.stringify(spideyThwip),
-    //     headers: {
-    //         'content-type': 'application/json'
-    //     }
-    // })
+    fetch(API_URL, {
+        method: 'POST',
+        body: JSON.stringify(spideyThwip),
+        headers: {
+            'content-type': 'application/json'
+        }
+    })
 })

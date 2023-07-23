@@ -20,21 +20,21 @@ building a twitter clone to reinforce full stack skills
     * [x] hide/show elements on the client
 
 # Back-end
-* [] create server folder
-* [] npm init -y
-* [] npm install express morgan
-* [] setup index.js
-* [] add GET/ route
-* [] add POST /spiderSense route
-    * [] log out req.body
+* [x] create server folder
+* [x] npm init -y
+* [x] npm install express morgan
+* [x] setup index.js
+* [x] add GET/ route
+* [x] add POST /spiderSense route
+    * [x] log out req.body
 
 # Front-end
-* [] fetch POST /mews with form data
-* [] See the CORS error and revel in this moment
-    * []Send user input from the client with fetch to the server
+* [x] fetch POST /mews with form data
+* [x] See the CORS error and revel in this moment
+    * [x]Send user input from the client with fetch to the server
 
 # Back-end
-* [] npm install cors
+* [x] npm install cors
 * [] Make sure the server is recieving the data
 * [] Add JSON body parser middleware
 * [] Validate name and content

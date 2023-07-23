@@ -1,9 +1,8 @@
 const express = require('express');
-// const cors = require('cors')
+const cors = require('cors')
 
 const app = express();
-
-// app.use(cors());
+app.use(cors());
 
 const spideyModels = [
     "Spider-Man", 
@@ -34,13 +33,13 @@ const spideyModels = [
 
 app.get('/', (request, response) => [
     response.json({
-        message: 'You friendly neighborhood Spider-Man! '
+        message: 'You friendly neighborhood Spider-Man... '
     })
 ])
 
-// app.post('/spideySense', (request, response) => {
-//     console.log(request.body)
-// })
+app.post('/spideySense', (request, response) => {
+    console.log(request.body)
+})
 
 app.listen(8080, () => {
     console.log('Listening on http://localhost:8080')
