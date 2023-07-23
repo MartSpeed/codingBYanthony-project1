@@ -43,6 +43,7 @@ form.addEventListener('submit', (event) => {
     }).then(response => response.json())
         .then(createdSpideySense => {
             console.log(createdSpideySense)
+            form.reset();
             form.style.display = '';
             loadingElement.style.display = 'none';
         })

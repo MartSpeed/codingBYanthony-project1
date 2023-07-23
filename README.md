@@ -56,8 +56,8 @@ building a twitter clone to reinforce full stack skills
 
 # Front-end
 * [x] log out created spiderSense after POST request
-* [] show the form
-* [] hide loading spinner
+* [x] show the form
+* [x] hide loading spinner
 
 # Back-end
 * [] GET /spideySense
