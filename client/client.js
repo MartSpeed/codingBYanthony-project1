@@ -29,6 +29,7 @@ form.addEventListener('submit', (event) => {
         name,
         content
     }
+    console.log(spideyThwip)
     form.style.display = 'none';
     loadingElement.style.display = '';
 

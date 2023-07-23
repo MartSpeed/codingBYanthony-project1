@@ -2,16 +2,16 @@
 building a twitter clone to reinforce full stack skills
 
 # Front-end
-* [] create client folder
-* [] setup index.html
-* [] bring in skeleton CSS
+* [x] create client folder
+* [x] setup index.html
+* [x] bring in skeleton CSS
     * http://getskeleton.com/
     * https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css
-* [] create header
-* [] create form
-    * name
-    * content
-    * use full width for both inputs
+* [x] create header
+* [x] create form
+    * [x] name
+    * [x] content
+    * [x] use full width for both inputs
 * [] listen for form submit
 * [] hide the form
 * [] show loading spinner
