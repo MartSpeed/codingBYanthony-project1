@@ -32,11 +32,11 @@ const spideyModels = [
     "Black Widow"
 ];
 
-// app.get('/', (request, response) => [
-//     response.json({
-//         message: 'You friendly neighborhood Spider-Man! '
-//     })
-// ])
+app.get('/', (request, response) => [
+    response.json({
+        message: 'You friendly neighborhood Spider-Man! '
+    })
+])
 
 // app.post('/spideySense', (request, response) => {
 //     console.log(request.body)
