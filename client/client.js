@@ -40,5 +40,10 @@ form.addEventListener('submit', (event) => {
         headers: {
             'content-type': 'application/json'
         }
-    })
+    }).then(response => response.json())
+        .then(createdSpideySense => {
+            console.log(createdSpideySense)
+            form.style.display = '';
+            loadingElement.style.display = 'none';
+        })
 })
