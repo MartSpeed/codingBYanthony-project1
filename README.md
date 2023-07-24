@@ -60,9 +60,9 @@ building a twitter clone to reinforce full stack skills
 * [x] hide loading spinner
 
 # Back-end
-* [] GET /spideySense
-    * [] respone with spideySense from DB
-    * [] retrieve data from a database on the server
+* [x] GET /spideySense
+    * [x] respone with spideySense from DB
+    * [x] retrieve data from a database on the server
 
 # Front-end
 * [] fetch GET /spideySense
