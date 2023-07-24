@@ -31,7 +31,7 @@ building a twitter clone to reinforce full stack skills
 # Front-end
 * [x] fetch POST /mews with form data
 * [x] See the CORS error and revel in this moment
-    * [x]Send user input from the client with fetch to the server
+    * [x] Send user input from the client with fetch to the server
 
 # Back-end
 * [x] npm install cors
